@@ -1,0 +1,67 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: grey;
+}
+
+header {
+    font-family: roboto;
+    font-size: 24px;
+    margin-bottom: 24px;
+    margin-top:32px;
+}
+
+.row {
+    padding-bottom: 12px;
+}
+
+.letter {
+    width: 40px;
+    margin: 0px 2px;
+    height: 40px;
+    border: 1px solid #000;
+    font-size: 24px;
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.letter:disabled {
+    border: 1px solid lightgrey;
+}
+
+.correct {
+    background-color: green;
+    color:white;
+}
+
+.present {
+    background-color: orange;
+    color:white;
+}
+
+.correct.present {
+    background-color: green;
+}
+
+.invalidWord {
+    background-color: red;
+    color:white;
+}
+
+#message {
+    font-family: roboto;
+    color:black;
+    margin-bottom:12px;
+}
+
+#streak {
+    font-family: roboto;
+    color:black;
+    margin-bottom:12px;
+}
+
+.prizeHidden {
+    visibility: hidden;
+}
